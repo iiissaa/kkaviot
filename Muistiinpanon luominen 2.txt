@@ -1,0 +1,8 @@
+title Muistiinpanon luominen 2
+
+kayttaja->selain: Menee nettisivulle
+kayttaja->selain:Kirjoittaa muistiinpanon
+selain->palvelin:lähettää pyynnön
+selain->palvelin:hyväksyy/hyölkää pyynnön
+palvelin->selain:pyyntö tulee heti näkyviin
+
