@@ -1,0 +1,14 @@
+title Muistiinpanon luominen
+
+
+    participant kayttaja
+    participant selain
+    participant palvelin
+    kayttaja->>palvelin: Kirjoittaa muistiinpanon
+    selain->>palvelin:muistiinpanon hyväksyminen/hylkääminen
+    selain->>palvelin: palvelin vastaanottaa pyynnön
+    palvelin->>selain:Päivitetty muistiinpano listaus
+
+    
+   
+    
